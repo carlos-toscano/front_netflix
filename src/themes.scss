@@ -1,0 +1,16 @@
+.bg-main, .btn-primary {
+  background-color: $primary-color;
+  color: $primary-color-text;
+}
+
+input[type=text], label {
+  color: white !important;
+}
+
+input[type=email], label {
+  color: white !important;
+}
+
+input[type=password], label {
+  color: white !important;
+}
