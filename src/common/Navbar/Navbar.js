@@ -14,7 +14,7 @@ class Navbar extends Component {
               localStorage.getItem('netflixToken') !== null ? (
                   <React.Fragment>
                     <li><a href="/me">Hola { payload().email }</a></li>
-                    <li><a href="/movies">Pelicúlas</a></li>
+                    <li><a href="/movies">Películas</a></li>
                     <li><a href="/logout">Log Out</a></li>
                   </React.Fragment>
                 ) : (

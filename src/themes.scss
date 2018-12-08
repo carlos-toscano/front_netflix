@@ -3,14 +3,11 @@
   color: $primary-color-text;
 }
 
-input[type=text], label {
-  color: white !important;
+input[type=text] + label, input[type=password] + label,
+input[type=email ] + label, textarea + label, select + label{
+  color: #fff !important;
 }
 
-input[type=email], label {
-  color: white !important;
-}
-
-input[type=password], label {
-  color: white !important;
+textarea, input, label, h4 {
+  color: white;
 }

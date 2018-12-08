@@ -31,7 +31,7 @@ class Movies extends Component {
                 const movies = data.movies.map((movie, index) => (
                   <div className="col s4" key={index}>
                     <h4>{movie.name}</h4>
-                    <MovieCard image={movie.cover} title={movie.name} rating={movie.rating} />
+                    <MovieCard id={movie._id} image={movie.cover} title={movie.name} rating={movie.rating} />
                   </div>
                 ));
 
