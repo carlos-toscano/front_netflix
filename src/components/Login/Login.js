@@ -66,7 +66,7 @@ class Login extends Component {
                         setInput={this.handleInput} required />
                     </div>
                     <div className="col s12">
-                      <Input id="password" name="password" type="password" value={this.props.password}
+                      <Input id="password" name="Password" type="password" value={this.props.password}
                         setInput={this.handleInput} required />
                     </div>
                     <button className="waves-effect waves-light btn btn-primary">Login</button>
